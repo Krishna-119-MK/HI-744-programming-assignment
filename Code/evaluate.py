@@ -8,7 +8,7 @@ if len(sys.argv) > 1:
     data_folder = Path(sys.argv[1])
 else:
     data_folder = project_folder / "data"
-output_folder = project_folder / "output"
+output_folder = project_folder / "Output"
 
 with (output_folder / "patient_similarities.json").open(
     "r", encoding="utf-8"
