@@ -6,7 +6,7 @@ This project compares patient case reports using TF-IDF and BM25. It ranks the f
 
 Install the required Python packages:
 
-    py -m pip install -r requirements.txt
+    py -m pip install -r Code/requirements.txt
 
 Download the NLTK language resources:
 
@@ -16,6 +16,6 @@ Download the NLTK language resources:
 
 Pass the path to a folder containing the input JSON files:
 
-    py main.py "C:\path\to\your\patient_data"
+    py Code/main.py "C:\path\to\your\patient_data"
 
 The patient data is not included in this repository.
